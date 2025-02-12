@@ -1,1 +1,49 @@
 
+/* Custom styles */
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
+/* Form validation styles */
+input:invalid, select:invalid {
+    border-color: #ef4444;
+}
+
+input:focus:invalid, select:focus:invalid {
+    ring-color: #ef4444;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .text-5xl {
+        font-size: 2.5rem;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
