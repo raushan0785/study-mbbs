@@ -1,42 +1,55 @@
 # Study MBBS Abroad - Responsive Landing Page
 
-This project is a responsive landing page for **"Study MBBS Abroad"** created for **University Insights**. The page showcases country listings, program details, and includes a lead generation form. The project uses **HTML, Tailwind CSS, JavaScript**, and **Node.js (Express)** to provide a clean, user-friendly interface.
+## 🌎 Overview
+Welcome to the *Study MBBS Abroad* landing page repository! This project provides an engaging, fast-loading, and SEO-optimized platform for students looking to pursue MBBS programs abroad. The landing page includes country listings, program details, an admission process guide, and a lead generation form.
 
----
+## 🚀 Live Demo  
+[studymedbridge](https://studymedbridge.netlify.app/)
 
-## 🚀 Features
+## 🏗 Tech Stack
+- *Frontend:* HTML, CSS (Tailwind/Bootstrap), JavaScript
+- *Analytics & Tracking:* Google Analytics, Facebook Pixel
 
-- **Responsive Design:** Optimized for all screen sizes (mobile, tablet, desktop).
-- **Country Listings:** Includes popular countries such as Russia, Uzbekistan, Kazakhstan, etc.
-- **Lead Generation Form:** Collects user details like name, email, phone, and country preferences.
-- **SEO Optimization:** Designed with best practices to improve search engine rankings.
-- **Performance Tracking:** Integrated Google Analytics and Facebook Pixel for monitoring user activity.
-- **Form Validation:** Frontend validation to ensure proper input fields before submission.
+## 📂 Folder Structure
+```
+project-root/
+│── public/
+│   ├── images/          # Contains all image assets
+│   ├── index.html       # Main HTML file
+│   ├── style.css        # Stylesheet
+│   ├── script.js        # JavaScript file
+│
+│── README.md            # Project documentation
+│── server.js            # Server-side file 
+│── projectreport.pdf    # Project report document
+```
 
----
+## 📥 Installation & Setup
+### 🔧 Prerequisites
+- Node.js & npm (for Tailwind CSS)
 
-## 🛠️ Technologies Used
+### 🛠 Steps to Run Locally
+1. *Clone the repository:*
+   sh
+   git clone https://github.com/raushan0785/study-mbbs.git
+   
+2. *Install dependencies:* 
+   sh
+   npm install
+   
+3. **Open index.html in a browser**
 
-- **HTML** - Structure and content of the page
-- **Tailwind CSS** - Styling and responsive design
-- **JavaScript** - Dynamic interactions and form validation
-- **Node.js (Express)** - Simple backend server
-- **Google Analytics & Facebook Pixel** - User tracking and analytics
+## 📊 Analytics & Performance Tracking
+- *Google Analytics:* Insert tracking ID in <head>
+- *Facebook Pixel:* Add script for event tracking
 
----
+## ✨ *Features*
 
-## 📂 Project Structure
+✔ *Responsive UI:* Tailwind CSS or Bootstrap for mobile-friendliness.  
+✔ *SEO-Optimized:* Structured content for better search visibility.  
+✔ *Performance-Focused:* Fast loading and optimized assets.  
+✔ *Lead Generation:* Integrated form with validation.  
+✔ *Tracking Integration:* Google Analytics & Facebook Pixel for insights.
 
-```bash
-.
-├── index.html          # Main landing page
-├── style.css           # Custom styles for the page
-├── script.js           # JavaScript for form validation and animations
-├── server.js           # Simple Express server for local hosting
-├── package.json        # Project dependencies
-└── README.md           # Project documentation
-git clone https://github.com/your-username/study-mbbs-abroad-landing-page.git
-cd study-mbbs-abroad-landing-page
-npm install
-node server.js
-
+## 📜 License
+This project is licensed under the MIT License.
